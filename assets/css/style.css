@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(../font/Inter/static/Inter-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(../font/Inter/static/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(../font/Inter/static/Inter-Regular.ttf);
+    font-weight: 400;
+}
+
+
+
+.body {
+    font-family: 'Inter', sans-serif;
+    src: url(../font/Inter/static/Inter-Regular.ttf);
+    font-weight: 400;
+    background-color: var(--tertiary);
+    font-size: 16px;
+}
+:root {
+    --primary:#448c74;
+    --secondery:#fff;
+    --tertiary:#f6f9fc;
+    --text-primery:#000;
+    --text-secondery:#576071;
+    --bg-light-grey:#edf1f5;
+    --text-off-white:#dbe8e4;
+    --bg-light-blue:#e4eeee;
+    --bg-yellow:#edcb50;
+}
+.bg-light-blue {
+    background-color: var(--tertiary);
+}
+.bg-white {
+    background-color: var(--secondery);
+}
+.bg-grey {
+    background-color: var(--bg-light-grey);
+}
+.text-off-white {
+    color: var(--text-off-white);
+}
+.fixe-buttun {
+    position: fixed;
+    bottom: 15px;
+    right: 18px;
+}
+.dropdown-font {
+    font-size: 14px;
+}
+
+.main-section-margin {
+    margin: 90px 0px 50px 0px;
+}
+.text-green {
+    color: var(--primary);   
+}
+.bg-green {
+    background-color: var(--primary);
+}
+.main-heading {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+.text-grey {
+    color: var(--text-secondery);
+}
+.font-primary {
+    font-size: 19px;
+}
+.font-secondery {
+    font-size: 13px;
+}
+.big-font {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.btn-success {
+    background-color: var(--primary);
+}
+.btn-success:hover {
+    background-color: #377965;
+}
+.relative-position {
+    position: relative;
+}
+.booking-button {
+    position: absolute;
+    right: 2%;
+    bottom:28px;
+}
+.relative-position .form-control.input-width {
+    width: 100%;
+    background-color: transparent ;
+}
+.profit-scel-div {
+    position: absolute;
+    top:10px;
+
+}
+.month-profit {
+    position: absolute;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+.heading-secondery {
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.heading-tertiary {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.border-green {
+    border: 1px solid #448c74;
+    border-radius: 100%;;
+    width:55px;
+    height:55px;
+
+}
+.green-color-div  {
+    background-color: var(--primary);
+    width: 300px;
+    height: 260px;
+    border-radius:20px 60px 20px 20px;
+    margin: 20px 20px;
+}
+.client-img-position {
+    position: absolute;
+    top: -8%;
+    left:5%;
+    width: 300px;
+    height: 302px;
+}
+.numbers-position {
+    position: absolute;
+    top:60px;
+    left: -30px;
+}
+
+.bg-light-blue {
+    background-color: var(--bg-light-blue);
+}
+.brash-img {
+    width: 200px;
+    height: auto;
+}
+.brash-position {
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+}
+.padding-position {
+    padding: 120px 0px;
+}
+.hand-img {
+    width: 350px;
+    height: auto;
+}
+.hand-position {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.heading-size-last-section {
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.font-size-last-section {
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+.bg-transparent {
+    background-color: transparent;
+}
+.form-control:focus {
+    box-shadow: none;
+    opacity: 0.6;
+}
+.call-booking-button {
+    position: absolute;
+    right: 2%;
+    bottom: 48px;
+}
+.btn-warning {
+    background-color:var(--bg-yellow) ;
+}
+.form-control.last-section::placeholder {
+    color: var(--text-off-white) ;
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.mail-id-footer {
+    text-decoration: none;
+    color: var(--primary);
+
+}
+.mail-id-footer:hover {
+    text-decoration:underline ;
+    color: var(--primary);
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler {
+    border: 0px;
+}
+.header-dropdown-font {
+    font-size:15px;
+    font-weight: 500;
+    color: #57595e;
+}
+.navbar .dropdown-menu.show.flex {
+    display: flex;
+}
+.dropdown-menu.shadow .dropdown-item:hover {
+    background-color: transparent;
+    color: var(--primary);
+}
+.nav-link.text-secondary:hover {
+    color: var(--primary) !important;
+}
+.btn-outline-success:hover {
+    background-color: #377965;
+}
+.text-dark:hover {
+    color: var(--primary) !important;
+}
+.carousel-indicators {
+    border-radius: 50%;
+}
+.carousel-indicators  {
+    bottom: -80px;
+    border-radius: 50% !important;
+    
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: var(--primary);
+}
+
+.card.hover-green:hover {
+    background-color: var(--primary);
+    color: var(--secondery);
+    border: var(--secondery);
+}
+.header-img {
+    width: 250px;
+    height: auto;
+}
+.dropdown-menu {
+    border: 0px;
+}
+.card.hover-green .text-muted:hover {
+    color: var(--secondery) !important;
+}
+.white-text:hover {
+    color: var(--secondery);
+}
+
+.card-hover-primary:hover {
+    --ar-heading-color: #fff;
+    --ar-body-color: rgba(255, 255, 255, .7);
+    border-color: var(--primary) !important;
+    background-color: var(--primary) !important;
+}
+/*Big screen*/
+
+@media screen and (min-width:999px) {
+    
+    .yellow-zig-zag-arrow {
+        position: absolute;
+        right: -120px;
+        bottom: -10px;
+        
+    }
+
+    .profit-scel-div {
+        position: absolute;
+        top:-8px;
+        left:90px;
+    
+    }
+    .month-profit {
+        position: absolute;
+        bottom: 40px;
+        right: -70px;
+    }
+    .main-heading {
+        font-size: 66px;
+        font-weight: 600;
+        line-height: 83px;
+    }
+    .main-section-margin {
+        margin: 180px 0px 140px 0px;
+    }
+    .relative-position .form-control.input-width {
+        width: 420px;
+        background-color: transparent ;
+    }
+    .booking-button {
+        position: absolute;
+        right: 115px;
+        bottom:28px;
+    }
+    .big-font {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 62px;
+    }
+    .border-right {
+        border-right: 1px solid #edf1f5;
+    }
+    .green-color-div  {
+        background-color: var(--primary);
+        width: 400px;
+        height: 360px;
+        border-radius:40px 120px 40px 40px;
+        margin: 40px 40px;
+    }
+    .client-img-position {
+        position: absolute;
+        top: -60px;
+        left:50px;
+        width: 400px;
+        height: 420px;
+    }
+    .heading-secondery {
+        font-size: 42px;
+        line-height: 52px;
+        font-weight: 600;
+    }
+    .heading-tertiary {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 42px;
+    }
+    .numbers-position {
+        position: absolute;
+        top:60px;
+        left: -25px;
+    }
+    .heading-size-last-section {
+        font-size: 64px;
+        line-height: 83px;
+        font-weight: 600;
+    }
+    .call-booking-button {
+        position: absolute;
+        right: 56px;
+        bottom:72px;
+    }
+}
