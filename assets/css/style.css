@@ -14,7 +14,10 @@
     font-weight: 400;
 }
 
-
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 .body {
     font-family: 'Inter', sans-serif;
@@ -49,7 +52,7 @@
 .fixe-buttun {
     position: fixed;
     bottom: 15px;
-    right: 18px;
+    right: 37px;
 }
 .dropdown-font {
     font-size: 14px;
@@ -366,5 +369,10 @@
         position: absolute;
         right: 56px;
         bottom:72px;
+    }
+    .fixe-buttun {
+        position: fixed;
+        bottom: 15px;
+        right: 18px;
     }
 }
