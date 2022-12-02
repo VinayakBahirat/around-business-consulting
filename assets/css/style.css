@@ -157,7 +157,7 @@
     background-color: var(--bg-light-blue);
 }
 .brash-img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 .brash-position {
@@ -242,7 +242,7 @@
     background-color: #377965;
 }
 .text-dark:hover {
-    color: var(--primary) !important;
+    color:  #007352 !important;
 }
 .carousel-indicators {
     border-radius: 50%;
@@ -258,7 +258,6 @@
     height: 14px;
     background-color: var(--primary);
 }
-
 .card.hover-green:hover {
     background-color: var(--primary);
     color: var(--secondery);
@@ -274,16 +273,21 @@
 .card.hover-green .text-muted:hover {
     color: var(--secondery) !important;
 }
-.white-text:hover {
-    color: var(--secondery);
+.input-padding {
+    padding-right: 150px;
 }
 
-.card-hover-primary:hover {
-    --ar-heading-color: #fff;
-    --ar-body-color: rgba(255, 255, 255, .7);
-    border-color: var(--primary) !important;
-    background-color: var(--primary) !important;
-}
+
+
+
+
+
+
+
+
+
+
+
 /*Big screen*/
 
 @media screen and (min-width:999px) {
